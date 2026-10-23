@@ -15,12 +15,13 @@ airflow/airflow.cfg
 airflow/airflow.db*
 airflow/webserver_config.py
 
-# Generated and potentially sensitive data
 data/
-reports/
+reports/*
+!reports/analytics_report_20261015_091049.pdf
 *.log
 *.parquet
 *.pdf
+!reports/analytics_report_20261015_091049.pdf
 
 # Python cache and virtual environments
 __pycache__/
